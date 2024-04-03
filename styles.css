@@ -1,29 +1,30 @@
-  background-color: black;
+h1 {
+ background-color: black;
 }
 
 h1 {
   color: purple;
-  font-family: verdana;
+  font-family: Oswald;
 }
 
 h2 {
   color: purple;
-  font-family: verdana;
+  font-family: Oswald;
 }
 
 h3 {
   color: purple;
-  font-family: verdana;
+  font-family: Oswald;
 }
 
 p {
-  font-family: verdana;
+  font-family: Oswald;
   font-size: 20px;
   color: purple;
 }
         
  a {
-  font-family: verdana;
+  font-family: Oswald;
   font-size: 20px;
   color: yellow;
 }
