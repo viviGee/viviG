@@ -4,27 +4,27 @@ body {
 
 h1 {
   color: purple;
-  font-family: Grandstander;
+  font-family: Grandstander-Black;
 }
 
 h2 {
   color: purple;
-  font-family: Grandstander;
+  font-family: Grandstander-Black;
 }
 
 h3 {
   color: purple;
-  font-family: Grandstander;
+  font-family: Grandstander-Black;
 }
 
 p {
-  font-family: Grandstander;
+  font-family: Grandstander-Black;
   font-size: 20px;
   color: purple;
 }
         
  a {
-  font-family: Grandstander;
+  font-family: Grandstander-Black;
   font-size: 20px;
   color: yellow;
 }
