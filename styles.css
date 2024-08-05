@@ -1,7 +1,7 @@
 * {
     --background-color: black;
     --content-color: purple;
-    --text-color: black;
+    --text-color: white;
     --update-color: purple;
     
 
@@ -86,6 +86,13 @@ hr {
 
 #warning {
     animation-name: WARNING;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#funny {
+    animation-name: FUNNY;
     animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
