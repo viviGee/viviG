@@ -1,36 +1,93 @@
+* {
+    --background-color: rgb(43, 43, 43);
+    --content-color: rgb(255, 255, 255);
+    --text-color: rgb(43, 43, 43);
+    --update-color: rgb(204, 0, 255);
+
+    margin: auto;
+    font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+    padding: 0;
+}
+
 body {
- background-color: black;
+    background-color: var(--background-color);
 }
 
-h1 {
-  color: purple;
-  font-family: helvetica;
+.content {
+    background-color: var(--content-color);
+    max-width: 70vw;
+    color: var(--text-color);
+    padding: 16px;
+    font-size: 24px;
+    box-shadow: 10px 10px 0px -5px rgb(146, 146, 146);
+    text-align: center;
 }
 
-h2 {
-  color: purple;
-  font-family: helvetica;
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
 }
 
-h3 {
-  color: purple;
-  font-family: helvetica;
+.rainbow {
+    background: linear-gradient(to right, #ff0400, rgb(255, 0, 191), #5d00ff, #008cff, #00e1ff, #00ff0d, #eaff00, #ff9d00, #ff3c00);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-p {
-  font-family: helvetica;
-  font-size: 20px;
-  color: purple;
+.update {
+    color: var(--update-color);
 }
-        
- a {
-  font-family: helvetica;
-  font-size: 20px;
-  color: yellow;
+
+img {
+    background-color: white;
+}
+
+.gallery img {
+    transition: all .2s cubic-bezier(0.34, 1.56, 0.64, 1);; 
+}
+
+.gallery img:hover {
+    transform: scale(0.95); 
 }
 
 hr {
-  color: yellow;
+    border-top: 8px solid var(--text-color);
+}
+
+.header {
+    font-size: 1.75rem;
+    transition: all .2s cubic-bezier(0.33, 1, 0.68, 1);
+}
+
+.header:hover {
+    transform: scale(1.1);
+}
+
+@keyframes WARNING {
+    0% {
+        scale: 1;
+        text-shadow: 0px 0px 1px red;
+    }
+    50% {
+        scale: 1.2;
+        letter-spacing: 2px;
+        text-shadow: 0px 0px 8px red;
+        color:darkred;
+    }
+    100% {
+        scale: 1;
+        text-shadow: 0px 0px 1px red;
+    }
+}
+
+#warning {
+    animation-name: WARNING;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
         img:hover {
   animation: shake 0.5s;
