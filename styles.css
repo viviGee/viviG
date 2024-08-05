@@ -1,11 +1,11 @@
 * {
-    --background-color: rgb(43, 43, 43);
-    --content-color: rgb(255, 255, 255);
-    --text-color: rgb(43, 43, 43);
-    --update-color: rgb(204, 0, 255);
+    --background-color: black;
+    --content-color: purple;
+    --text-color: white;
+    --update-color: purple;
 
     margin: auto;
-    font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+    font-family: "helvetica", "helvetica", sans-serif;
     padding: 0;
 }
 
@@ -42,7 +42,7 @@ body {
 }
 
 img {
-    background-color: white;
+    background-color: black;
 }
 
 .gallery img {
