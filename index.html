@@ -15,6 +15,60 @@
   <hr>
     <p>this site is being worked on, so stuff will change!</p>
     <div>
+          <br>
+      <p id="warning">if you see this, ALLOW JS LOSER!</p>
+      <p>(reload page for epic messages)</p>
+      '<br>
+
+      <script>
+        const possibleEmojis = [
+          "🚨",
+          "⚠️",
+          "🐱",
+          "🎅",
+          "🏳️‍⚧️",
+          "🐵",
+          "🦧",
+          "🗿",
+          "🦆",
+          "💀",
+          "😎",
+          "👾",
+          "🏳️‍🌈",
+          "☺️",
+          "👺"
+        ]
+
+        const allWarnings = [
+          " that forest got some cubes ",
+          " games lie here ",
+          " dirt STINKS ",
+          "monke funni",
+          "I love you, John?",
+          "Domain expires soon, gotta do shit",
+          "cats, with guns.",
+          "huh?",
+          " hello ",
+          " unforseen concequences ",
+          "brought to you by the tech department!",
+          "brought to you by DJ Hassewawa!",
+          "brought to you by the science team!",
+          "Ayden's World WooOOOOooo",
+          "Bang Bang! Gimme fame!",
+          "gmod admins when you when you when you you",
+          "Everyday, I lose it more and more.",
+          "This is freakin' sweet!",
+          "help me",
+          "Better then Penis World!",
+          "damn",
+          "Just like roblox!"
+        ];
+
+        var warningElement = document.getElementById("warning");
+        var warningEmoji = possibleEmojis[Math.floor(Math.random() * possibleEmojis.length)]; // Let's get the emoji for the warning
+
+        warningElement.innerHTML = warningEmoji + allWarnings[Math.floor(Math.random() * allWarnings.length)] + warningEmoji; // Warning text, with emojis
+      </script>
       <h2>My Projects</h2>
   
         <h3>Fortnite Username Generator</h3>
