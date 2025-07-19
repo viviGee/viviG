@@ -1,2 +1,4 @@
 # Vivian Gee
 this is my portfoilo, its pretty swell.
+
+(THE SITE IS DOWN AND WILL NOT HAVE ANYMORE UPDATES! FEEL FREE TO USE CODE FROM THIS FOR YOUR SHIT!)
